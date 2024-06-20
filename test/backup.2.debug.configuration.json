@@ -1,0 +1,232 @@
+{
+  "working_directory": "C:\\Users\\sedaj\\test\\tmp-tagger-merge-2\\source",
+  "window": {
+    "open_width": 1100,
+    "open_height": 900
+  },
+  "filter": {
+    "included": [
+      [".*"]
+    ],
+    "excluded": [
+      ["test.result@excluded"]
+    ]
+  },
+  "group_tag": "id",
+  "tags_order": ["mag@", "datetime@", "project@", "id@", "jira@", "test.result@"],
+  "key_mapping": {
+    "T": "test.key.handler",
+    "P": "print.screen",
+    "R": "rectangle",
+    "E": "open.explorer",
+    "C": "cmd"
+  },
+  "render": {
+
+    "main_window": {
+      "background_color": "black"
+    },
+
+    "group": {
+        "border_color": "#A5B6C7",
+        "border_width": "0px",
+        "border_style": "solid",
+        "background_color": "black",
+        "text_color": "#1a99ed",
+        "font_family": "Consolas",
+        "font_size": "17px",
+        "font_weight": "bold"
+    },
+
+    "selected": {
+        "border_color": "#202124",
+        "border_width": "1px",
+        "border_style": "solid",
+        "background_color": "#101114"
+    },
+
+    "deselected": {
+        "border_color": "black",
+        "border_width": "2px",
+        "border_style": "solid",
+        "background_color": "black"
+    },
+
+    "render_all_tags": "yes",
+
+    "filter": {
+      "included": {
+        "border_color": "#202124",
+        "border_width": "1px",
+        "border_style": "solid",
+        "background_color": "#0F0F0F",
+        "text_color": "#4AEC2A",
+        "font_family": "Consolas",
+        "font_size": "14px",
+        "font_weight": "bold"
+      },
+      "excluded": {
+        "border_color": "#202124",
+        "border_width": "1px",
+        "border_style": "solid",
+        "background_color": "#0F0F0F",
+        "text_color": "red",
+        "font_family": "Consolas",
+        "font_size": "14px",
+        "font_weight": "bold"
+      }
+    },
+    "status": {
+      "success": {
+        "border_color": "green",
+        "border_width": "0px",
+        "border_style": "solid",
+        "background_color": "#0F0F0F",
+        "text_color": "gray",
+        "font_family": "Consolas",
+        "font_size": "12px",
+        "font_weight": "bold"
+      },
+      "error": {
+        "border_color": "red",
+        "border_width": "0px",
+        "border_style": "solid",
+        "background_color": "#0F0F0F",
+        "text_color": "red",
+        "font_family": "Consolas",
+        "font_size": "12px",
+        "font_weight": "bold"
+      }
+    },
+
+    "tag": {
+      "mag": [
+        {
+          "value_expression": ".*",
+          "border_color": "violet",
+          "border_width": "1px",
+          "border_style": "solid",
+          "background_color": "black",
+          "text_color": "violet",
+          "font_family": "Consolas",
+          "font_size": "12px",
+          "font_weight": "normal",
+          "fixed_width": 90
+        }
+      ]
+
+      ,
+      "datetime": [
+        {
+          "value_expression": ".*",
+          "border_color": "#13405e",
+          "border_width": "1px",
+          "border_style": "solid",
+          "background_color": "black",
+          "text_color": "#13405e",
+          "font_family": "Consolas",
+          "font_size": "12px",
+          "font_weight": "normal",
+          "fixed_width": 150
+        }
+      ],
+      "project": [
+        {
+          "value_expression": ".*",
+          "border_color": "#13405e",
+          "border_width": "1px",
+          "border_style": "solid",
+          "background_color": "black",
+          "text_color": "#13405e",
+          "font_family": "Consolas",
+          "font_size": "12px",
+          "font_weight": "bold",
+          "fixed_width": 150
+        }
+      ],
+      "id": [
+        {
+          "value_expression": ".*",
+          "border_color": "#1a99ed",
+          "border_width": "1px",
+          "border_style": "solid",
+          "background_color": "black",
+          "text_color": "#1a99ed",
+          "font_family": "Consolas",
+          "font_size": "12px",
+          "font_weight": "normal",
+          "fixed_width": 350
+        }
+      ],
+      "jira": [
+        {
+          "value_expression": ".*",
+          "border_color": "#13405e",
+          "border_width": "1px",
+          "border_style": "solid",
+          "background_color": "black",
+          "text_color": "#13405e",
+          "font_family": "Consolas",
+          "font_size": "12px",
+          "font_weight": "normal",
+          "fixed_width": 120
+        }
+      ],
+      "test.result": [
+        {
+          "value_expression": "pass",
+          "border_color": "#00ff00",
+          "border_width": "1px",
+          "border_style": "solid",
+          "background_color": "#002000",
+          "text_color": "#00ff00",
+          "font_family": "Consolas",
+          "font_size": "12px",
+          "font_weight": "normal",
+          "fixed_width": 120,
+          "alignment": "right"
+        },
+        {
+          "value_expression": "fail",
+          "border_color": "#ff0000",
+          "border_width": "1px",
+          "border_style": "solid",
+          "background_color": "#200000",
+          "text_color": "#ff0000",
+          "font_family": "Consolas",
+          "font_size": "12px",
+          "font_weight": "normal",
+          "fixed_width": 120,
+          "alignment": "right"
+        },
+        {
+          "value_expression": "fail",
+          "border_color": "gray",
+          "border_width": "1px",
+          "border_style": "solid",
+          "background_color": "black",
+          "text_color": "gray",
+          "font_family": "Consolas",
+          "font_size": "12px",
+          "font_weight": "normal",
+          "fixed_width": 120,
+          "alignment": "right"
+        }
+      ],
+      "__default__": [
+        {
+          "value_expression": ".*",
+          "border_color": "gray",
+          "border_width": 1,
+          "border_style": "solid",
+          "background_color": "black",
+          "text_color": "gray",
+          "font_family": "Consolas",
+          "font_size": "12px",
+          "font_weight": "normal",
+          "fixed_width": ""
+        }
+      ]
+    }
+  }
+}
